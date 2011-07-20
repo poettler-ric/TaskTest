@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="My List Definition Feature" Id="a79a081b-3cdc-4703-abb0-89d2f9b3fff1" ReceiverAssembly="TaskTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1c79b902ac78c208" ReceiverClass="TaskTest.Features.Feature1.Feature1EventReceiver" Scope="Web" Title="TaskTest Feature1">
+  <ElementManifests>
+    <ElementManifest Location="TaskTest\Elements.xml" />
+    <ElementFile Location="TaskTest\Schema.xml" />
+    <ElementManifest Location="TaskTestInstance\Elements.xml" />
+  </ElementManifests>
+</Feature>

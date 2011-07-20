@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <Field ID="{BB92826B-BFB5-4BE9-8DEC-A36263ED07DA}"
+         Name="TextTest" DisplayName="Text Test"
+         Type="Text" Required="FALSE"></Field>
+
+  <ContentType ID="0x010800B7D371DCBA534D43B08C66A976A78012"
+               Name="TextTestType"
+               Group="Custom Content Type"
+               Description="A description"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{BB92826B-BFB5-4BE9-8DEC-A36263ED07DA}"/>
+    </FieldRefs>
+  </ContentType>
+               
+    <!-- Do not change the value of the Name attribute below. If it does not match the folder name of the List Definition project item, an error will occur when the project is run. -->
+    <ListTemplate
+        Name="TaskTest"
+        DisallowContentTypes="FALSE"
+        Type="10001"
+        BaseType="0"
+        OnQuickLaunch="TRUE"
+        SecurityBits="11"
+        Sequence="360"
+        DisplayName="Task Test"
+        Description="My List Definition"
+        Image="/_layouts/images/ittask.png"/>
+</Elements>

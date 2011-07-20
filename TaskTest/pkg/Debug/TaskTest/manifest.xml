@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d5e0ff1e-64ed-4836-aa13-7d1a7b51a6a8" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TaskTest.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="TaskTest_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
