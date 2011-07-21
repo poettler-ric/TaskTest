@@ -19,7 +19,7 @@
     <ListTemplate
         Name="TaskTest"
         DisallowContentTypes="FALSE"
-        Type="10001"
+        Type="107"
         BaseType="0"
         OnQuickLaunch="TRUE"
         SecurityBits="11"
